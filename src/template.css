@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "font-mustom";
+  src: url("/icon-lib/font/font-mustom.eot");
+  src: url("/icon-lib/font/font-mustom.eot?#iefix") format("embedded-opentype"),
+    url("/icon-lib/font/font-mustom.woff") format("woff2"),
+    url("/icon-lib/font/font-mustom.woff") format("woff"),
+    url("/icon-lib/font/font-mustom.ttf") format("truetype"),
+    url("/icon-lib/font/font-mustom.svg#font-mustom") format("svg");
+}
+.fm {
+  font-family: "font-mustom";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fm-sq {
+  width: 1em;
+  height: 1em;
+  text-align: center;
+}
+.fm-sq:before {
+  display: inline-block;
+  transform: translate3d(-0.125em, 0, 0);
+}
